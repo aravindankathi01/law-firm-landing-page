@@ -13,14 +13,14 @@ body {
   height: 100%;
 }
 
-body {
+/* body {
   line-height: 1.5;
   /* -webkit-font-smoothing: antialiased; */
-  background-color: var(--color-black);
+/* background-color: var(--color-black);
   color: var(--color-white);
   font-family: "Inter";
-  overflow-x: hidden;
-}
+  overflow-x: hidden; */
+/* }  */
 img,
 picture,
 video,

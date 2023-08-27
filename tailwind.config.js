@@ -7,6 +7,11 @@ module.exports = {
       "--color-button": "#E3B748",
       "--color-primary": "#232222",
       "--color-border": "#6A6A6A",
+      borderOp: "#FFFFFF1A",
+      odd: "#2E2E2E",
+    },
+    fontFamily: {
+      inter: "Inter,sans-serif",
     },
     extend: {},
   },

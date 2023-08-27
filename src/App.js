@@ -6,8 +6,8 @@ import HeroSection from "./Components/HeroSection";
 function App() {
   return (
     <div className='h-full w-full'>
-      <div className='-bg--color-black h-[900px] w-full -text--color-white'>
-        <div className=' flex flex-col items-center ml-[153px] mr-[152px] pt-[53px]'>
+      <div className='-bg--color-black h-[900px] w-full -text--color-white flex justify-center'>
+        <div className='flex flex-col items-center justify-center w-[1135px] h-[636px] pt-[56px]'>
           <Header />
           <HeroSection />
         </div>

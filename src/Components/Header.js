@@ -3,7 +3,7 @@ import { ReactComponent as Vector } from "../assets/Vector.svg";
 
 const Header = () => {
   return (
-    <div className='mt-[10px] w-full flex flex-row items-center justify-between'>
+    <div className='mt-[10px] w-[1135px] flex flex-row items-center justify-between'>
       <div className='flex flex-row gap-3'>
         <Vector />
         <h1 className='text-xl font-bold font-'>IGSTUDIO</h1>
