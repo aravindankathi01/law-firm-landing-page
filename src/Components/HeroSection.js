@@ -53,9 +53,9 @@ const HeroSection = () => {
         {/* <HeroImage className='z-10 object-fill' /> */}
         <img
           src={HeroImage2}
-          className='z-10 object-cover h-[510px] w-[467px]'
+          className='z-10 object-cover h-[568px] w-[467px]'
           alt='heroImage'></img>
-        <div className='w-[467px] h-[400px] -bg--color-button rounded-[55px] absolute top-[100px]'></div>
+        <div className='w-[467px] h-[444px] -bg--color-button rounded-[55px] absolute top-[100px]'></div>
       </div>
     </div>
   );

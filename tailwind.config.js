@@ -9,9 +9,13 @@ module.exports = {
       "--color-border": "#6A6A6A",
       borderOp: "#FFFFFF1A",
       odd: "#2E2E2E",
+      title: "#FFFBF2",
+      Subscribe: "#4747477F",
+      ash: "#818181",
     },
     fontFamily: {
       inter: "Inter,sans-serif",
+      interItalic: "InterItalic, sans-serif",
     },
     extend: {},
   },

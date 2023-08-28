@@ -19,29 +19,47 @@ const Gallery = () => {
         Area of Practices
       </h1>
       <div className='grid grid-cols-3 w-full gap-[30px]'>
-        <div className='rounded-[14px] col-span-2 w-[752px] h-[342px]'>
+        <div className='rounded-[14px] col-span-2 w-[752px] h-[342px] relative'>
           {/* <BusinessLaw /> */}
           <img src={BusinessLaw} alt='BusinessLaw'></img>
+          <h1 className='absolute bottom-[41px] text-2xl font-semibold leading-6 left-auto right-auto text-center w-full text-title'>
+            BUSINESS LAW
+          </h1>
         </div>
-        <div className='rounded-[14px] w-[358px] h-[342px]'>
+        <div className='rounded-[14px] w-[358px] h-[342px] relative'>
           {/* <PartnershipLaw /> */}
           <img src={PartnershipLaw} alt='PartnershipLaw'></img>
+          <h1 className='absolute bottom-[41px] text-2xl font-semibold leading-6 left-auto right-auto text-center w-full text-title'>
+            Patnership LAW
+          </h1>
         </div>
-        <div className='rounded-[14px] w-[358px] h-[342px]'>
+        <div className='rounded-[14px] w-[358px] h-[342px] relative'>
           {/* <RealEstateLaw /> */}
           <img src={RealEstateLaw} alt='RealEstateLaw'></img>
+          <h1 className='absolute bottom-[41px] text-2xl font-semibold leading-6 left-auto right-auto text-center w-full text-title'>
+            REAL ESTATE LAW
+          </h1>
         </div>
-        <div className='rounded-[14px] col-span-2 w-[752px] h-[342px]'>
+        <div className='rounded-[14px] col-span-2 w-[752px] h-[342px] relative'>
           {/* <BusinessLaw2 /> */}
           <img src={BusinessLaw2} alt='BusinessLaw2'></img>
+          <h1 className='absolute bottom-[41px] text-2xl font-semibold leading-6 left-auto right-auto text-center w-full text-title'>
+            BUSINESS LAW
+          </h1>
         </div>
-        <div className='rounded-[14px] col-span-2 w-[752px] h-[342px]'>
+        <div className='rounded-[14px] col-span-2 w-[752px] h-[342px] relative'>
           {/* <LandlordDisputes /> */}
           <img src={LandlordDisputes} alt='Landlord'></img>
+          <h1 className='absolute bottom-[41px] text-2xl font-semibold leading-6 left-auto right-auto text-center w-full text-title'>
+            LANDLORD DISPUTES
+          </h1>
         </div>
-        <div className='rounded-[14px] w-[358px] h-[342px]'>
+        <div className='rounded-[14px] w-[358px] h-[342px] relative'>
           {/* <ElderAbuse /> */}
           <img src={ElderAbuse} alt='ElderAbuse'></img>
+          <h1 className='absolute bottom-[41px] text-2xl font-semibold leading-6 left-auto right-auto text-center w-full text-title'>
+            ELDER ABUSE
+          </h1>
         </div>
       </div>
     </div>
