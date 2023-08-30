@@ -22,7 +22,7 @@ const Subscribe = () => {
               onChange={(e) => {
                 setFormData({ ...formData, name: e.target.value });
               }}
-              className='text-ash font-normal text-sm leading-[19px]'
+              className='text-ash font-normal text-sm leading-[19px] w-[201px] h-6 pl-2'
               placeholder='Name:'></input>
           </div>
           <div className='w-[276px] -bg--color-white flex items-center pl-6'>
@@ -31,7 +31,7 @@ const Subscribe = () => {
               id='email'
               name='email'
               value={formData.email}
-              className='text-ash font-normal text-sm leading-[19px]'
+              className='text-ash font-normal text-sm leading-[19px] w-[201px] h-6 pl-2'
               onChange={(e) => {
                 setFormData({ ...formData, email: e.target.value });
               }}

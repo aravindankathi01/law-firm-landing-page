@@ -2,7 +2,7 @@ import React from "react";
 
 const CarouselCard = ({ image, name, role, description, id }) => {
   const style = id % 2 === 1 ? "bg-odd" : "border-2 border-borderOp";
-  console.log(style);
+  // console.log(style);
   return (
     <div
       className={
@@ -12,7 +12,7 @@ const CarouselCard = ({ image, name, role, description, id }) => {
       <img
         src={image}
         alt='person'
-        className='h-[105px] w-[102px] mb-[20px]'></img>
+        className='h-[105px] w-[102px] mb-[20px] rounded-full'></img>
       <h1 className='font-semibold text-2xl pb-3'>{name}</h1>
       <p className='font-normal text-sm'>{role}</p>
       <p className='font-medium text-sm opacity-30 h-[92px] w-[293px] mt-[22px]'>

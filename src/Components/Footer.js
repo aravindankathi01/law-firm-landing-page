@@ -7,7 +7,7 @@ import facebook from "../assets/facebook.png";
 
 const Footer = () => {
   return (
-    <div className='w-full h-[367px] -bg--color-black flex flex-col'>
+    <div className='w-full h-[367px] bg-footer flex flex-col'>
       <div className='mt-[118px] flex flex-row justify-between mr-[142px] ml-[164px]'>
         <div className='flex flex-row w-[143px] h-[30px] gap-3'>
           <Vector />

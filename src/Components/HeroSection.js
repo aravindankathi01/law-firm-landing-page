@@ -6,8 +6,8 @@ const HeroSection = () => {
   const [emailValue, setEmailValue] = useState("");
 
   return (
-    <div className='h-[544px] w-full mt-9 flex flex-row gap-24'>
-      <div className='flex flex-col mt-24 gap-4'>
+    <div className='h-[544px] w-full flex flex-row gap-[93px] pt-16'>
+      <div className='flex flex-col mt-20 gap-9'>
         <div className='w-[571px] h-[194px] leading-[90px] text-start text-[66px]'>
           <h1 className='pl-2 font-medium'>You don't have to</h1>
           <h1 className='font-bold'>Fight them Alone.</h1>
@@ -49,13 +49,11 @@ const HeroSection = () => {
           </button>
         </div>
       </div>
-      <div className='w-[468px] relative flex flex-col'>
-        {/* <HeroImage className='z-10 object-fill' /> */}
+      <div className='w-[468px] flex flex-col'>
         <img
           src={HeroImage2}
           className='z-10 object-cover h-[568px] w-[467px]'
           alt='heroImage'></img>
-        <div className='w-[467px] h-[444px] -bg--color-button rounded-[55px] absolute top-[100px]'></div>
       </div>
     </div>
   );

@@ -100,6 +100,87 @@ export const carouselData = [
       aliqua dolor do amet sint. Velit officia`,
     role: "Ceo of Hunt",
   },
+  {
+    image: person1,
+    name: "Jane Cooper",
+    description: `Amet minim mollit non deserunt ullamco est
+      sit aliqua dolor do amet sint. Velit officia
+      consequatduis enim velit mollit Exer. sit
+      aliqua dolor do amet sint. Velit officia`,
+    role: "Ceo of Hunt",
+  },
+  {
+    image: person2,
+    name: "Devon Lane",
+    description: `Amet minim mollit non deserunt ullamco est
+      sit aliqua dolor do amet sint. Velit officia
+      consequatduis enim velit mollit Exer. sit
+      aliqua dolor do amet sint. Velit officia`,
+    role: "Ceo of Hunt",
+  },
+  {
+    image: person3,
+    name: "Robert Fox",
+    description: `Amet minim mollit non deserunt ullamco est
+      sit aliqua dolor do amet sint. Velit officia
+      consequatduis enim velit mollit Exer. sit
+      aliqua dolor do amet sint. Velit officia`,
+    role: "Ceo of Hunt",
+  },
+  {
+    image: person1,
+    name: "Jane Cooper",
+    description: `Amet minim mollit non deserunt ullamco est
+      sit aliqua dolor do amet sint. Velit officia
+      consequatduis enim velit mollit Exer. sit
+      aliqua dolor do amet sint. Velit officia`,
+    role: "Ceo of Hunt",
+  },
+  {
+    image: person2,
+    name: "Devon Lane",
+    description: `Amet minim mollit non deserunt ullamco est
+      sit aliqua dolor do amet sint. Velit officia
+      consequatduis enim velit mollit Exer. sit
+      aliqua dolor do amet sint. Velit officia`,
+    role: "Ceo of Hunt",
+  },
+  {
+    image: person3,
+    name: "Robert Fox",
+    description: `Amet minim mollit non deserunt ullamco est
+      sit aliqua dolor do amet sint. Velit officia
+      consequatduis enim velit mollit Exer. sit
+      aliqua dolor do amet sint. Velit officia`,
+    role: "Ceo of Hunt",
+  },
+  {
+    image: person1,
+    name: "Jane Cooper",
+    description: `Amet minim mollit non deserunt ullamco est
+      sit aliqua dolor do amet sint. Velit officia
+      consequatduis enim velit mollit Exer. sit
+      aliqua dolor do amet sint. Velit officia`,
+    role: "Ceo of Hunt",
+  },
+  {
+    image: person2,
+    name: "Devon Lane",
+    description: `Amet minim mollit non deserunt ullamco est
+      sit aliqua dolor do amet sint. Velit officia
+      consequatduis enim velit mollit Exer. sit
+      aliqua dolor do amet sint. Velit officia`,
+    role: "Ceo of Hunt",
+  },
+  {
+    image: person3,
+    name: "Robert Fox",
+    description: `Amet minim mollit non deserunt ullamco est
+      sit aliqua dolor do amet sint. Velit officia
+      consequatduis enim velit mollit Exer. sit
+      aliqua dolor do amet sint. Velit officia`,
+    role: "Ceo of Hunt",
+  },
 ];
 
 export const chooseArray = [
